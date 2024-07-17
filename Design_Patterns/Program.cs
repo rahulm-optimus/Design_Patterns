@@ -22,11 +22,6 @@ internal class Program
         #endregion
 
         #region OCP
-        //Console.WriteLine("Enter the side of square to get the Area and Perimeter :");
-        //var side = Convert.ToInt32(Console.ReadLine());
-        //Square squareArea = new (side);
-        //Console.WriteLine($"Area of the square of side {side} : {squareArea.Area}");
-        //Console.WriteLine($"Perimeter of the square of side {side} : {squareArea.Perimeter}");
 
         Console.WriteLine("--------OCP Implementation--------");
         Console.WriteLine("Enter the side of square to get the Area and Perimeter :");
@@ -83,12 +78,7 @@ internal class Program
         Subtraction subtraction = new();
         Console.WriteLine(subtraction.Perform(4, 2));
 
-
-
-
         #endregion
-
-
 
     }
 }
